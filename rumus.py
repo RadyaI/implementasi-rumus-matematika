@@ -91,6 +91,6 @@ while True:
         luas_lingkaran()  
         break  
     else:   
+        print("salah kocak!")
         print("Harap input yang sesuai!!")
-        print("Bujon salah kocak!")
         break    
