@@ -33,6 +33,10 @@ def pembagian():
     print("Hasil pembagian: ", hasil, "\n")
 
 
+num1 = 0
+operator = '+'
+
+
 while True:
     userInput = int(input(
         "Pilih salah satu: \n 1. Kalkulator sederhana \n 2. Kalkulator normal \n Pilih nomor: "))
@@ -53,8 +57,11 @@ while True:
             break
         else:
             break
+    elif (userInput == 2):
+        print("\nBelum jadi hehe")
+        break
     elif (userInput == 0):
-        print("Batal")
+        print("\nBatal")
         break
     else:
         print("Salah Input!")
